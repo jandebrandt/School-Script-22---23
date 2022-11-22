@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamborghini</title>
+    <style> 
+    body { background-color: hsl(198, 77%, 73%);
+           color: black;}
+    #formulier { color: white;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lamborghini aanvragen & zijn geschiedenis.</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html#intro">Introductie</a></li>
+                <li><a href="index.html#Lijstjes">Lijstjes</a></li>
+                <li><a href="index.html#Formulier">Formulier</a></li>
+                <li><a href="foto.html">Foto's</a></li>
+                <li><a href="info.html">Geschiedenis</a></li>
+           </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="intro">
+            <h2>Introductie</h2>
+            <img src="images/lambo.jpg" alt="Foto van een dikke lamborghini!" width="500">
+        </section>
+        <section id="Lijstjes">
+            <h2>Lijstjes</h2>
+            <h3>Lamborghini Types</h3>
+            <ul>
+                <li>Huracan</li>
+                <li>Veneno</li>
+                <li>Aventador</li>
+                <li>Urus</li>
+            </ul>
+            <h3>Wat mag niet?</h3>
+            <ol>
+                <li>Fortnite spelen</li>
+            </ol>
+        </section>
+        <section id="Formulier">
+            <h2>Formulier</h2>
+            <form action="">
+                <fieldset>
+                    <legend>Type Lamborghini? (in stock)</legend>
+                    <input type="radio"
+                    name="type wagen" value="Aventador">Aventador
+                    <input type="radio" 
+                    name="type wagen" value="Huracan">Huracan
+                    <input type="radio" 
+                    name="type wagen" value="Urus">Urus
+                    <input type="radio"
+                    name="type wagen" value="Essenza ">Essenza
+                </fieldset>
+                <fieldset>
+                    <legend>Kleur van de wagen?</legend>
+                    <input type="radio"
+                    name="wagenkleur" value="blauw">Blauw
+                    <input type="radio"
+                    name="wagenkleur" value="zwart">Zwart
+                    <input type="radio"
+                    name="wagenkleur" value="groen">Groen
+                </fieldset>
+                <fieldset>
+                    <legend>Wat wenst u dat aanwezig is?</legend>
+                    <input type="checkbox"
+                    name="extensies" value="airco">Airco
+                    <input type="checkbox"
+                    name="extensies" value="massagefunctie">Massage functie
+                    <input type="checkbox"
+                    name="extensies" value="reserveband">Reserve Band
+                </fieldset>
+                <fieldset>
+                    <legend>Hoeveel geld wilt u hier spenderen?</legend>
+                    <input type="number"
+                    name="saldo" max="5000000" min="0" placeholder="0">
+                </fieldset>
+                <fieldset>
+                    <legend>Hebben wij u goed geholpen bij uw keuze?</legend>
+                    <textarea name="hulprevieuw" id=""
+                    cols="20" rows="4"></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>Hoe heeft u van ons gehoord?</legend>
+                    <select name="gevonden" id="">
+                        <option
+                        value="">Advertentie
+                        </option>
+                        <option
+                        value="">Via vrienden
+                        </option>
+                        <option
+                        value="">Via andere bedrijven
+                        </option>
+                    </select>
+                </fieldset>
+                <button type="submit">Indienen</button>
+                <button type="reset">Resetten</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        Copyright De Brandt & Co
+    </footer>
+</body>
+</html>

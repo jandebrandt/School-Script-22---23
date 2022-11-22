@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(171, 193, 234);
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+#artiest {
+    text-align: center;
+    color: rgb(10, 10, 153);
+    font-size: xx-large;
+    color: rgb(6, 6, 113);
+}
+
+#intro {
+    text-align: center;
+}
+
+#nav {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(44, 44, 159);
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(134, 119, 243);
+    color: rgb(255, 255, 255);
+}
+
+#kolom1 {
+    background-color: rgb(65, 100, 240);
+}
+
+#kolom2 {
+    background-color: rgb(134, 119, 243);
+}
+#kolomempty {
+    background-color: rgb(171, 193, 234);
+    color: rgb(171, 193, 234);
+}
+
+#footer1 {
+    font-size: x-small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: end;
+    padding-top: 10px;
+}
+
+#introtitle {
+    color: rgb(10, 10, 153);
+}
+
+#cartitle {
+    color: rgb(10, 10, 153);
+}
+
+#werktitle {
+    color: rgb(10, 10, 153);
+}
+
+#muziek {
+    color: rgb(36, 7, 117);
+    text-align: center;
+}
+
+#introductie {
+    padding: 20px;
+}
+
+#carriere {
+    padding: 20px;
+}
+
+#werk {
+    padding: 20px;
+}
+
+header {
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+#tabel2 { 
+    display: inline-block;
+}
+#tabel1 {
+    display: inline-block;
+}
