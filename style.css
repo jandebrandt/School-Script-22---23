@@ -18,17 +18,11 @@ p{
     font-size: 16px;
 }
 #flexbox{
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
     display: flex;
-    background-color: #ffffff;
-    padding: 4%;
-    margin: 50px;
-    flex-direction: row;
-    border-color: lightsalmon;
-    border: #ff0000;
-    border: 10px;
-    width: 50vw;
-    margin: auto;
-    color: black;
 }
 a{
     color: #ff0000;
@@ -47,19 +41,17 @@ li{
     text-align: center;
   
 }
-.col-left {
-    display: block;
-    text-align: left;
-    width: 50vw;
-}
-.col-right{
-    display: block;
-    text-align: right;
-    width: 50vw;
+div.col {
+    margin: auto;
+    padding: 5%;
+    position: center;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 2px;
+    border-radius:10px;
 }
 footer{
     width: 40vw;
     margin: auto;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #000000;
 }
