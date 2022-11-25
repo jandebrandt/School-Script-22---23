@@ -1,7 +1,8 @@
 body{
     background-color: black;
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(images/teletubies.jfif);
 }
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -19,7 +20,7 @@ p{
 }
 #flexbox{
     padding: 20px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.557);
     color: rgb(0, 0, 0);
     text-align: center;
     display: flex;
@@ -29,10 +30,10 @@ a{
     font-size: 16px;
 }
 a:hover{
-    color: #ff0000;
-    border-color: #ff0000;
+    color: #930b0b;
+    border-color: #930b0b;
     border-width: 2px;
-    border-style: dashed;
+    border-style:groove;
 }
 li{
     color: #ff0000;
@@ -41,10 +42,16 @@ li{
     text-align: center;
   
 }
-div.col {
+div.col.right {
     margin: auto;
     padding: 5%;
-    position: center;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 2px;
+    border-radius:10px;
+}
+div.col.left {
+    margin: auto;
+    padding: 5%;
     border: 1px solid rgb(0, 0, 0);
     margin: 2px;
     border-radius:10px;
@@ -53,5 +60,5 @@ footer{
     width: 40vw;
     margin: auto;
     text-align: center;
-    background-color: #000000;
+    background-color: rgba(255, 255, 255, 0.557);
 }
