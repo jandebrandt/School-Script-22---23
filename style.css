@@ -42,20 +42,16 @@ li{
     text-align: center;
   
 }
-div.col.right {
+div.col {
+    width: 50%;
     margin: auto;
     padding: 5%;
+    position: center;
     border: 1px solid rgb(0, 0, 0);
     margin: 2px;
     border-radius:10px;
 }
-div.col.left {
-    margin: auto;
-    padding: 5%;
-    border: 1px solid rgb(0, 0, 0);
-    margin: 2px;
-    border-radius:10px;
-}
+
 footer{
     width: 40vw;
     margin: auto;
