@@ -1,0 +1,42 @@
+/* instellingen */
+*{
+    margin: 0;
+
+    padding: 0;
+}
+
+
+body {
+    background-color: rgb(255, 119, 0);
+}
+/* hoofding */
+header{
+    background-color: rgb(255, 255, 255);
+}
+#nav {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header nav li {
+    display: inline-block;
+}
+header nav a {
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-decoration: none;
+}
+/* vormgeving classes */
+
+#flex-container {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+#Lid {
+    color: rgb(255, 255, 255);
+    background-color: orange;
+}
+#MYBASIC {
+    color: lightslategray;
+}
