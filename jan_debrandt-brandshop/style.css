@@ -1,4 +1,3 @@
-/* instellingen */
 *{
     margin: 0;
 
@@ -7,9 +6,8 @@
 
 
 body {
-    background-color: rgb(255, 119, 0);
+    background-color: rgb(255, 255, 255);
 }
-/* hoofding */
 header{
     background-color: rgb(255, 255, 255);
 }
@@ -26,17 +24,37 @@ header nav a {
     padding: 20px;
     text-decoration: none;
 }
-/* vormgeving classes */
-
-#flex-container {
+header nav :hover {
+    color: orange;
+}
+.flex-container{
     text-align: center;
     display: flex;
     justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
 }
-#Lid {
-    color: rgb(255, 255, 255);
+.align center {
+    align-items: center;
+}
+#Lid nav a{
+    margin: 15px;
+    padding: 10px;
+    color: white;
     background-color: orange;
+}
+#Lid nav :hover {
+    color: rgb(180, 99, 0);
 }
 #MYBASIC {
     color: lightslategray;
+    margin: 5px;
+}
+#logo {
+    margin: 20px;
+}
+#zoeken {
+    margin: 25px;
+}
+#nav {
+    margin: 5px;
 }
