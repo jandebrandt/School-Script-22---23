@@ -58,3 +58,31 @@ header nav :hover {
 #nav {
     margin: 5px;
 }
+#a1 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 200px;
+    font-size: xxx-large;
+    padding: 150px;
+}
+#a1-1 {
+    color: rgb(0, 0, 0)
+}
+#a1-2 {
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+#mobf {
+    font-size: large;
+    margin-top: -50px;
+    margin-left: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main nav a {
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+}
+main nav :hover {
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
