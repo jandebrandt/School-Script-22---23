@@ -112,3 +112,120 @@ video {
 #msmi {
     text-decoration: none;
 }
+#ms1{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#FirstCard {
+    display: flex;
+    padding-top: 10vh;
+    margin-left: 1%;
+}
+.cards {
+    display: flex;
+    margin-left: .5%;
+}
+.card {
+    color: orange;
+    margin: 2rem;
+    box-shadow: 0px 0px 10px 1px orange;
+    border-radius: .5rem;
+}
+.product-information {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.card img {
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    height: 450px;
+    width: 350px;
+}
+footer {
+    background: #111;
+    height: auto;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
+    padding-top: 10px;
+    color: #FFF;
+}
+.footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-top h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-top p {
+    max-width: 1100px;
+    margin: 5px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.footer-bottom {
+    background: #000;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.footer-bottom p {
+    padding: 17px;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+footer {
+    padding: 20px;
+    background-color: orange;
+    font-size: 15px;
+    color: #000000;
+}
+footer li {
+    list-style: none;
+    color: white;
+}
+footer li:first-child {
+    color: #000000;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.socialmedia :hover {
+    align-content: center;
+    margin-top: 5%;
+}
+footer input[type="email"],
+footer input[type="submit"] {
+    display: block;
+    margin-bottom: 10px;
+}
+footer input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    background-color: white;
+}
+footer input[type="submit"] {
+    background-color: #F6781D;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
