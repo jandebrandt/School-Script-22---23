@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<meta charset="UTF-8">
+	<title>Ticketverkoop RavenPOP</title>
+	<link rel="stylesheet" href="tickets.css">
+</head>
+<body>
+	<form id="ticket-form">
+		<h2>Koop je tickets voor RavenPOP</h2>
+		<label for="name-input">Naam:</label>
+		<input type="text" id="name-input" required>
+		<label for="email-input">E-mailadres:</label>
+		<input type="email" id="email-input" required>
+		<label for="date-select">Datum:</label>
+		<select id="date-select" required>
+			<option value="">Selecteer een datum</option>
+			<option value="vrijdag">Vrijdag 10 juni</option>
+			<option value="zaterdag">Zaterdag 11 juni</option>
+			<option value="zondag">Zondag 12 juni</option>
+		</select>
+		<label for="ticket-type">Tickettype:</label>
+		<select id="ticket-type" required>
+			<option value="">Selecteer een tickettype</option>
+			<option value="regular">Regular - &euro;50</option>
+				<option value="vip">VIP - &euro;100</option>
+		</select>
+		<button type="submit" id="buy-button">Kopen</button>
+	</form>
+	<script src="tickets.js"></script>
+</body>
+</html>
