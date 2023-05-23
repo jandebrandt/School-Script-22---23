@@ -58,7 +58,7 @@ header nav :hover {
     height: 250px;
     font-size: 24px;
     text-align: center;
-    color:white
+    color:white;
 }
 .grid-item img {
     width: 100%;
@@ -139,4 +139,8 @@ footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #05247a;
     font-size: x-large;
+}
+#text1 {
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
